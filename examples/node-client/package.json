@@ -1,0 +1,20 @@
+{
+  "name": "kitchen-grpc-golang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client-node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "artillery": "^2.0.15",
+    "artillery-engine-grpc": "^0.0.9",
+    "grpc": "^1.24.11",
+    "winston": "^3.13.0",
+    "winston-transport": "^4.7.0",
+    "winston-transport-http-stream": "^0.1.4"
+  }
+}
